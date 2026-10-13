@@ -11,3 +11,17 @@ build
 
 
 *.env
+# Firebase private credentials
+serviceAccountKey.json
+*serviceAccount*.json
+*-adminsdk-*.json
+
+# Environment files
+.env
+.env.*
+*.env
+!.env.example
+
+# Private keys
+*.pem
+*.key
